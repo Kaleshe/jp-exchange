@@ -1,0 +1,24 @@
+<div class="prose">
+  <header class="!space-y-0 !mb-12">
+    <h1 class="mb-0">Events</h1>
+    <p>Japanese language events. Offline and online.</p>
+  </header>
+
+  <section>
+    <div class="shadow-md rounded-xl max-w-md pb-4 mb-8 transition-all hover:shadow-lg">
+      <div class="h-52 overflow-hidden rounded-t-xl">
+        <%= image_tag("https://images.unsplash.com/photo-1472653431158-6364773b2a56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80", class: "mt-0 h-full w-full object-cover object-bottom") %>
+      </div>
+      <div class="m-8">
+        <h2>Japanese Monthly Meet Up</h2>
+        <div>
+          <span><b>When:</b> 24/10/25 @ 10:00 PM</span> | <span><b>Where:</b> Oxford Street, All Bar One</span>
+          <p class="leading-relaxed">We will be running our monthly meetup again at All Bar One on New Oxford St (near Tottenham Court Road station). This is our meetup for Japanese/English language exchange, networking and for those with a genuine interest in Japanese culture.</p>
+        </div>
+        <a href="#" class="bg-red-500 mx-auto block no-underline transition-all text-center px-4 py-1 rounded-lg text-white border-2 border-red-500 hover:bg-white hover:text-red-500">View Event</a>
+      </div>
+    </div>
+  </section>
+
+  <%= link_to "Add new event", new_event_path, class: "bg-red-600 text-white no-underline px-8 py-4 leading-none rounded-full fixed right-4 bottom-4" %>
+</div>
