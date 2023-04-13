@@ -1,3 +1,3 @@
 class Event < ApplicationRecord
-  validates :title, :description, :image_url,
+  validates :title, :description, :location, :date, :time, :image, presence: true
 end
